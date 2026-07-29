@@ -87,7 +87,7 @@ const About = () => {
             <img src={profile} alt="Tawananyasha Chipata" />
 
             <div className="experience-card">
-              <h2>10+</h2>
+              <h2>5+</h2>
               <p>Projects Built</p>
             </div>
           </div>

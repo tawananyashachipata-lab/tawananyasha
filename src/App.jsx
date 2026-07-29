@@ -5,9 +5,12 @@ import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
 import Certificates from "./Certificates";
-import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Projects from "./Projects";
+
+import "./index.css";
+
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
       <About />
       <Skills />
       <Certificates />
-      <Services />
+      <Projects />
       <Contact />
       <Footer />
     </>

@@ -69,14 +69,12 @@ const Hero = () => {
 
           {/* Buttons */}
 
-          <div className="hero-buttons">
-
-            <a href="#projects">
-              <button className="primary-btn">
-                View Projects
-              </button>
-            </a>
-
+        <div className="hero-buttons">
+        <a href="#projects">
+        <button className="primary-btn">
+          View Projects
+         </button>
+         </a>
             <a href={cv} download>
               <button className="secondary-btn">
                 Download CV

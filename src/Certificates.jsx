@@ -1,6 +1,11 @@
 import "./App.css";
 import { motion } from "framer-motion";
 import { FaCertificate, FaExternalLinkAlt } from "react-icons/fa";
+import responsiveCertificate from "./assets/responsive.png";
+import javascriptCertificate from "./assets/Screenshot 2026-07-27 094926.png";
+import pythonCertificate from "./assets/python_free.png";
+import softwareEngineeringCertificate from "./assets/Screenshot 2026-07-16 145619.png";
+import nestCertificate from "./assets/Screenshot 2026-07-27 110737.png";
 
 const certificates = [
   {
@@ -9,32 +14,42 @@ const certificates = [
     year: "2026",
     description:
       "Learned HTML5, CSS3, Flexbox, Grid and responsive web design principles.",
-    link: "#",
+    link: responsiveCertificate,
   },
   {
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    year: "2026",
-    description:
-      "Covered JavaScript fundamentals, ES6, arrays, objects and algorithms.",
-    link: "#",
-  },
-  {
-    title: "React Development",
+    title: "Introduction to software engineering",
     issuer: "Coursera",
     year: "2026",
     description:
-      "Built reusable React components, managed state and created interactive applications.",
-    link: "#",
+      "Learning software development fundamentals,software development life cyle and problem solving.",
+    link: softwareEngineeringCertificate,
   },
   {
-    title: "Git & GitHub",
-    issuer: "Udemy",
+    title: "Python",
+    issuer: "Freecodecamp",
     year: "2026",
     description:
-      "Version control, branching, pull requests and collaborative development.",
-    link: "#",
+      "Built reusable React components, managed state and created interactive applications.",
+    link: pythonCertificate,
   },
+  {
+    title: "Javascript Basics",
+    issuer: "Coursera",
+    year: "2026",
+    description:
+      "Covered JavaScript fundamentals, ES6, arrays, objects and algorithms.",
+    link: javascriptCertificate,
+  },
+
+    {
+    title: "Fundamentals of Nest.js",
+    issuer: "Coursera",
+    year: "2026",
+    description:
+      "Learning to build scalable backend applications using modules,controllers,services and REST APIs with typescript.",
+    link: nestCertificate,
+  },
+
 ];
 const Certificates = () => {
   return (
@@ -55,7 +70,7 @@ const Certificates = () => {
           commitment to improving my software development skills.
         </p>
       </motion.div>
-
+ 
       <div className="certificate-grid">
         {certificates.map((certificate, index) => (
           <motion.div
@@ -79,7 +94,7 @@ const Certificates = () => {
 
             <p>{certificate.description}</p>
 
-            <a href={certificate.link}>
+            <a href={certificate.link} target="_blank" rel="noopener noreferrer">
               View Certificate <FaExternalLinkAlt />
             </a>
           </motion.div>

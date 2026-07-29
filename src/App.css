@@ -22,6 +22,7 @@ scroll-behavior:smooth;
   justify-content:center;
   padding:60px 8%;
   align-items: center;
+  z-index: 1;
 
 }
 .hero-container{
@@ -206,7 +207,7 @@ font-size:15px;
 
 .hero button{
 margin-top:10px;
-padding:6px 15px;
+padding:10px 15px;
 background:#ff69b4;
 border:none;
 border-radius:15px;
@@ -235,7 +236,7 @@ padding:80px;
   flex-direction: row-reverse;
 }
 
-/* LEFT SIDE */
+
 .about-content {
   flex: 1 1 320px;
   max-width: 650px;
