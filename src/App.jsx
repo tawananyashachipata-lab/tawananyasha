@@ -6,7 +6,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Certificates from "./Certificates";
 import Footer from "./Footer";
-import Projects from "./Projects";
+import Projects from "./projects";
 import Contact from "./Contact";
 
 import "./index.css";
