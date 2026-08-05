@@ -5,7 +5,8 @@ import responsiveCertificate from "./assets/responsive.png";
 import javascriptCertificate from "./assets/Screenshot 2026-07-27 094926.png";
 import pythonCertificate from "./assets/python_free.png";
 import softwareEngineeringCertificate from "./assets/Screenshot 2026-07-16 145619.png";
-import nestCertificate from "./assets/Screenshot 2026-07-27 110737.png";
+import nestImage from "./assets/nestjs.png";
+import nestCertificate from "./assets/Screenshot 2026-08-05 131124.png";
 
 const certificates = [
   {
@@ -33,6 +34,14 @@ const certificates = [
     link: pythonCertificate,
   },
   {
+    title: "Fundamentals of Nestjs",
+    issuer: "Coursera",
+    year: "2026",
+    description:
+      "Learning basics of Nest.js framework.",
+    link: nestImage,
+  },
+  {
     title: "Javascript Basics",
     issuer: "Coursera",
     year: "2026",
@@ -40,16 +49,14 @@ const certificates = [
       "Covered JavaScript fundamentals, ES6, arrays, objects and algorithms.",
     link: javascriptCertificate,
   },
-
-    {
-    title: "Fundamentals of Nest.js",
+  {
+    title: "Nest.js Developer lab",
     issuer: "Coursera",
     year: "2026",
     description:
       "Learning to build scalable backend applications using modules,controllers,services and REST APIs with typescript.",
     link: nestCertificate,
   },
-
 ];
 const Certificates = () => {
   return (
@@ -85,6 +92,12 @@ const Certificates = () => {
             <div className="certificate-icon">
               <FaCertificate />
             </div>
+
+            <img
+              src={certificate.link}
+              alt={`${certificate.title} certificate`}
+              className="certificate-image"
+            />
 
             <h3>{certificate.title}</h3>
 

@@ -1,6 +1,6 @@
 import "./App.css";
 import profile from "./assets/me.jpeg";
-import cv from "./assets/cv.pdf";
+// import cv from "./assets/cv.pdf";
 
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
@@ -75,8 +75,8 @@ const Hero = () => {
           View Projects
          </button>
          </a>
-            <a href={cv} download>
-              <button className="secondary-btn">
+            <a href="/tawa_cv.pdf" download>
+              <button className="-btn">
                 Download CV
               </button>
             </a>

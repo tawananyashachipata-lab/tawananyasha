@@ -31,7 +31,7 @@ const projects = [
       "An elegant beauty and skincare website featuring products, branding, and a modern shopping experience.",
     tech: "React • CSS • JavaScript",
     github: "https://github.com/yourusername/staycey-glow",
-    // live: "https://stayceyglow.vercel.app",
+    live: "https://staycey-glow-boutique.vercel.app/",
   },
   {
     title: "TrainEase by Staycey",
