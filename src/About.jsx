@@ -34,15 +34,13 @@ const About = () => {
           <span className="section-tag">ABOUT ME</span>
 
           <h2>
-            Passionate Software Developer
+           Building Modern Solutions
             <br />
-            Creating Digital Experiences
+            That Solve Real Problems
           </h2>
 
           <p>
-            Hello! I'm <strong>Tawananyasha Chipata</strong>, a passionate
-            Software Development student who enjoys building modern,
-            responsive and interactive web applications.
+            Hello! I'm <strong>Tawananyasha Chipata</strong>, a junior software developer focused on building clean, responsive, and user-friendly digital experiences. I work with technologies like React, JavaScript, Python, and NestJS, turning ideas into functional web applications. I enjoy learning new technologies and solving problems through code.
           </p>
 
           <p>
@@ -54,7 +52,7 @@ const About = () => {
 
           {/* Tech Stack */}
 
-          <h3>Technologies I Use</h3>
+          {/* <h3>Technologies I Use</h3>
 
           <div className="tech-stack">
 
@@ -70,7 +68,7 @@ const About = () => {
 
             <span><FaGithub /> GitHub</span>
 
-          </div>
+          </div> */}
 
         </motion.div>
 
@@ -86,11 +84,11 @@ const About = () => {
           <div className="about-visual">
             <img src={profile} alt="Tawananyasha Chipata" />
 
-            <div className="experience-card">
+            {/* <div className="experience-card">
               <h2>5+</h2>
-              <p>Projects Built</p>
+              <p>Projects Built</p> */}
             </div>
-          </div>
+          {/* </div> */}
 
           <div className="about-cards">
             <div className="about-card">

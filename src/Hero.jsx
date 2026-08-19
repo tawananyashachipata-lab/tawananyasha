@@ -1,6 +1,6 @@
 import "./App.css";
 import profile from "./assets/me.jpeg";
-// import cv from "./assets/cv.pdf";
+import cv from "./assets/Tawananyasha_chipata_CV_pdf.pdf";
 
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
 
-          <h3>Hello 👋 I'm</h3>
+          <h3>Hello I'm</h3>
 
           <h1>
             <span>Tawananyasha</span>
@@ -64,7 +64,7 @@ const Hero = () => {
           </h2>
 
           <p>
-            Software Developer passionate about building accessible, performant web applications. I specialize in React, Node.js, and modern full-stack development. I enjoy turning complex problems into simple, beautiful solutions and I’m always learning the next best tool.
+            Software Developer dedicated about building accessible, performant web applications. I specialize in React, Node.js, and modern full-stack development. I enjoy turning complex problems into simple, beautiful solutions and I’m always learning the next best tool.
           </p>
 
           {/* Buttons */}
@@ -75,17 +75,17 @@ const Hero = () => {
           View Projects
          </button>
          </a>
-            <a href="/tawa_cv.pdf" download>
-              <button className="-btn">
+            <a href={cv} download="Tawananyasha_chipata_CV_pdf.pdf">
+              <button className="secondary-btn">
                 Download CV
               </button>
             </a>
 
-            <a href="#contact">
+            {/* <a href="#contact">
               <button className="outline-btn">
                 Contact Me
               </button>
-            </a>
+            </a> */}
 
           </div>
 
@@ -101,7 +101,7 @@ const Hero = () => {
               <FaLinkedin />
             </a>
 
-            <a href="mailto:your@email.com">
+            <a href="mailto:tawananyashachipata@gmail.com">
               <FaEnvelope />
             </a>
 

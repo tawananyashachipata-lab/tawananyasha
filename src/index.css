@@ -53,7 +53,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: #0f172a;
+  background: #0F172A;
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -74,7 +74,7 @@ h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: white;
 }
 
 h1 {
@@ -196,13 +196,13 @@ code {
 }
 
 .live-btn {
-  background: #ff69b4;
+  background: #2563EB;
   color: white;
 }
 
 .github-btn {
-  border: 1px solid #ff69b4;
-  color: #ff69b4;
+  border: 1px solid #2563EB;
+  color: #38BDF8;
 }
 
 .live-btn:hover,

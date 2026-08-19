@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import { motion } from "framer-motion";
 import { FaCertificate, FaExternalLinkAlt } from "react-icons/fa";
@@ -57,8 +58,12 @@ const certificates = [
       "Learning to build scalable backend applications using modules,controllers,services and REST APIs with typescript.",
     link: nestCertificate,
   },
+
 ];
 const Certificates = () => {
+  const [showAll, setShowAll] = useState(false);
+  const displayedCertificates = showAll ? certificates : certificates.slice(0, 3);
+
   return (
     <section className="certificates" id="certificates">
       <motion.div
@@ -79,7 +84,7 @@ const Certificates = () => {
       </motion.div>
  
       <div className="certificate-grid">
-        {certificates.map((certificate, index) => (
+        {displayedCertificates.map((certificate, index) => (
           <motion.div
             className="certificate-card"
             key={index}
@@ -113,6 +118,29 @@ const Certificates = () => {
           </motion.div>
         ))}
       </div>
+
+      {certificates.length > 3 && (
+        <div className="view-more-container" style={{ textAlign: 'center', marginTop: '40px' }}>
+          <button 
+            onClick={() => setShowAll(!showAll)}
+            style={{
+              padding: '10px 18px',
+              border: 'none',
+              borderRadius: '25px',
+              fontWeight: '700',
+              cursor: 'pointer',
+              background: '#2563EB',
+              color: '#fff',
+              transition: '.3s',
+              fontSize: '14px'
+            }}
+            onMouseOver={(e) => e.target.style.transform = 'translateY(-4px)'}
+            onMouseOut={(e) => e.target.style.transform = 'translateY(0)'}
+          >
+            {showAll ? 'View Less' : 'View More'}
+          </button>
+        </div>
+      )}
     </section>
   );
 };

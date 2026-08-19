@@ -1,6 +1,16 @@
+import { useState } from "react";
 import "./index.css";
 
 const projects = [
+
+  {
+    title: "Staycey Glow",
+    description:
+      "An elegant beauty and skincare website featuring products, branding, and a modern shopping experience.",
+    tech: "React • CSS • JavaScript",
+    github: "https://github.com/yourusername/staycey-glow",
+    live: "https://staycey-glow-boutique.vercel.app/",
+  },
   {
     title: "Stylish Portfolio",
     description:
@@ -25,14 +35,14 @@ const projects = [
     github: "https://github.com/yourusername/hydrocare",
     // live: "https://hydrocare.vercel.app",
   },
-  {
-    title: "Staycey Glow",
-    description:
-      "An elegant beauty and skincare website featuring products, branding, and a modern shopping experience.",
-    tech: "React • CSS • JavaScript",
-    github: "https://github.com/yourusername/staycey-glow",
-    live: "https://staycey-glow-boutique.vercel.app/",
-  },
+  // {
+  //   title: "Staycey Glow",
+  //   description:
+  //     "An elegant beauty and skincare website featuring products, branding, and a modern shopping experience.",
+  //   tech: "React • CSS • JavaScript",
+  //   github: "https://github.com/yourusername/staycey-glow",
+  //   live: "https://staycey-glow-boutique.vercel.app/",
+  // },
   {
     title: "TrainEase by Staycey",
     description:
@@ -44,6 +54,9 @@ const projects = [
 ];
 
 export default function Projects() {
+  const [showAll, setShowAll] = useState(false);
+  const displayedProjects = showAll ? projects : projects.slice(0, 3);
+
   return (
     <section className="projects-section" id="projects">
       <div className="projects-container">
@@ -54,7 +67,7 @@ export default function Projects() {
         </p>
 
         <div className="projects-grid">
-          {projects.map((project, index) => (
+          {displayedProjects.map((project, index) => (
             <div className="project-card" key={index}>
               <h3>{project.title}</h3>
 
@@ -84,6 +97,29 @@ export default function Projects() {
             </div>
           ))}
         </div>
+
+        {projects.length > 3 && (
+          <div className="view-more-container" style={{ textAlign: 'center', marginTop: '40px' }}>
+            <button 
+              onClick={() => setShowAll(!showAll)}
+              style={{
+                padding: '14px 28px',
+                border: 'none',
+                borderRadius: '12px',
+                fontWeight: '700',
+                cursor: 'pointer',
+                background: '#2563EB',
+                color: 'white',
+                transition: '.3s',
+                fontSize: '16px'
+              }}
+              onMouseOver={(e) => e.target.style.transform = 'translateY(-4px)'}
+              onMouseOut={(e) => e.target.style.transform = 'translateY(0)'}
+            >
+              {showAll ? 'View Less' : 'View More'}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

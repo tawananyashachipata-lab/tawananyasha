@@ -17,32 +17,31 @@ const skills = [
   {
     icon: <FaHtml5 />,
     name: "HTML5",
-    level: "95%",
   },
   {
     icon: <FaCss3Alt />,
     name: "CSS3",
-    level: "90%",
+    
   },
   {
     icon: <SiJavascript />,
     name: "JavaScript",
-    level: "85%",
+   
   },
   {
     icon: <FaReact />,
     name: "React",
-    level: "85%",
+   
   },
   {
     icon: <SiNextdotjs />,
     name: "Next.js",
-    level: "70%",
+    
   },
   {
     icon: <FaGithub />,
     name: "Git & GitHub",
-    level: "80%",
+   
   },
 ];
 
@@ -70,7 +69,7 @@ const Skills = () => {
       <div className="skills-grid">
         {skills.map((skill, index) => (
           <motion.div
-            className="skill-card"
+            className="skill-item"
             key={index}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -86,15 +85,6 @@ const Skills = () => {
             </div>
 
             <h3>{skill.name}</h3>
-
-            <div className="progress">
-              <div
-                className="progress-bar"
-                style={{ width: skill.level }}
-              ></div>
-            </div>
-
-            <span>{skill.level}</span>
           </motion.div>
         ))}
       </div>
