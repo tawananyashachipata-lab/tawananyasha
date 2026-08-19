@@ -12,12 +12,12 @@ const projects = [
     live: "https://staycey-glow-boutique.vercel.app/",
   },
   {
-    title: "Stylish Portfolio",
+    title: "Tastehub Restaurant",
     description:
-      "A modern personal portfolio showcasing my skills, projects, and experience built with Python.",
-    tech: "Python",
-    github: "https://github.com/tawananyashachipata-lab/Staycey.django.git",
-    // live: "https://yourportfolio.com",
+      "A food ordering platform that allows users to browse meals,add items to their cart and place orders easily.",
+    tech: "React",
+    github: "https://github.com/tawananyashachipata-lab/tastehub-order.git",
+    live: "https://tastehub-order.vercel.app/",
   },
   {
     title: "Airbnb ",
