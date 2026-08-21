@@ -3,7 +3,10 @@ import "./App.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">Staycey</div>
+      <div className="logo">
+        <span className="logo-stay">Stay</span>
+        <span className="logo-cey">cey</span>
+      </div>
 
       <ul className="nav-links">
         <li><a href="#">Home</a></li>
@@ -15,5 +18,4 @@ function Navbar() {
     </nav>
   );
 }
-
 export default Navbar;

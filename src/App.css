@@ -56,9 +56,15 @@ scroll-behavior:smooth;
 .hero h2{font-size:1.8rem;color:#38BDF8;min-height:50px}
 .hero p{max-width:650px;color:#94A3B8;line-height:1.8;margin:1.5rem 0}
 .hero-buttons{display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0;justify-content:center}
-.hero-buttons button{
- padding:30px 40px;border:none;border-radius:25px;font-weight:700;
- cursor:pointer;transition:.3s;font-size:16px;
+.hero-buttons button {
+    width:135px;
+    height:50px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
 }
 .primary-btn{background:#2563EB;color:#fff}
 .secondary-btn{background:#2563EB;color:#fff}
@@ -143,11 +149,18 @@ scroll-behavior:smooth;
     box-sizing: border-box;
 }
 
-.logo{
-    color: white;
+.logo {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.logo-stay {
+    color: white;
+}
+
+.logo-cey {
+    color: #2563eb;
 }
 
 .nav-links{
@@ -210,9 +223,7 @@ cursor:pointer;
 font-size:9px;
 }
 
-/* section{
-padding:80px;
-} */
+
 
 
 
@@ -261,7 +272,7 @@ padding:80px;
   display: block;
 }
 
-/* Experience Card */
+
 .experience-card {
   position: absolute;
   bottom: -20px;
@@ -286,7 +297,6 @@ padding:80px;
   color: #d1d5db;
 }
 
-/* RIGHT SIDE */
 .section-tag {
   display: inline-block;
   padding: 6px 12px;
@@ -312,7 +322,6 @@ padding:80px;
   margin-bottom: 15px;
 }
 
-/* ABOUT CARDS */
 .about-cards {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -354,7 +363,7 @@ padding:80px;
   margin: 0;
 }
 
-/* TECH STACK */
+
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
@@ -467,7 +476,7 @@ padding:80px;
 }
 
 
-/* RESPONSIVE */
+
 @media (max-width: 900px) {
   .about-container {
     flex-direction: column;
