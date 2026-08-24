@@ -9,7 +9,7 @@ const projects = [
     thumbnail: stayceyGlowImage,
     title: "Staycey Glow",
     description:
-      "An elegant beauty and skincare website featuring products, branding, and a modern shopping experience.",
+      "An elegant beauty and skincare website featuring products and modern shopping experience.",
     tech: "React • CSS • JavaScript",
     github: "https://github.com/yourusername/staycey-glow",
     live: "https://staycey-glow-boutique.vercel.app/",
@@ -29,7 +29,7 @@ const projects = [
       "A responsive Airbnb-inspired web application built with Python and Django, featuring property listings, search functionality, and a modern user interface.",
     tech: "Python • Django",
     github: "https://github.com/tawananyashachipata-lab/stayhub_airbnb.git",
-    // live: "https://airbnbclone.vercel.app",
+    // Comingsoon: "https://airbnbclone.vercel.app",
   },
   {
     title: "HydroCare",
@@ -37,7 +37,7 @@ const projects = [
       "A water intake and medication reminder application designed to help users maintain healthy daily habits with authentication and analytics.",
     tech: "React • NestJS • PostgreSQL • Supabase",
     github: "https://github.com/yourusername/hydrocare",
-    // live: "https://hydrocare.vercel.app",
+    // Comingsoon: "https://hydrocare.vercel.app",
   },
   
   {
@@ -46,7 +46,7 @@ const projects = [
       "A fitness and wellness platform helping users manage workouts, progress tracking, and healthy living.",
     tech: "React • NestJS • PostgreSQL",
     github: "https://github.com/yourusername/trainease",
-    // live: "https://trainease.vercel.app",
+    // Comingsoon: "https://trainease.vercel.app",
   },
 ];
 
