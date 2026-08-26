@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import tastehubImage from "./assets/Tastehub Restaurant.png";
 import stayceyGlowImage from "./assets/Staycey_glow.png";
+import financeflowImage from "./assets/Financeflow.png";
 
 const projects = [
 
@@ -24,12 +25,13 @@ const projects = [
   live: "https://tastehub-order.vercel.app/",
 },
   {
-    title: "Airbnb ",
+    thumbnail: financeflowImage,
+    title: "Financeflow ",
     description:
-      "A responsive Airbnb-inspired web application built with Python and Django, featuring property listings, search functionality, and a modern user interface.",
-    tech: "Python • Django",
-    github: "https://github.com/tawananyashachipata-lab/stayhub_airbnb.git",
-    // Comingsoon: "https://airbnbclone.vercel.app",
+      "A modern personal finance management app that helps users track income, expenses, budgets, and financial activity through a simple and intuitive dashboard.",
+    tech: "React • TypeScript  • Supabase  • HTML • CSS",
+    github: "https://github.com/tawananyashachipata-lab/financeflow-dashboard.git",
+    live: "https://financeflow-dashboard-i2al.vercel.app/",
   },
   {
     title: "HydroCare",

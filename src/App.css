@@ -53,18 +53,25 @@ scroll-behavior:smooth;
  background:linear-gradient(90deg,#2563EB,#38BDF8,#60A5FA);
  -webkit-background-clip:text;background-clip:text;color:transparent;
 }
-.hero h2{font-size:4rem;color:#38BDF8;min-height:50px}
-.hero p{max-width:650px;color:#94A3B8;line-height:1.8;margin:1.5rem 0}
-.hero-buttons{display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0;justify-content:center}
+.hero-buttons {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
 .hero-buttons button {
-    width:135px;
-    height:50px;
+    min-width: 130px;
+    height: 50px;
+    padding: 14px 28px;
     border: none;
-    border-radius: 25px;
-    font-weight: 900;
+    border-radius: 12px;
+    font-weight: 700;
     cursor: pointer;
-    transition: 0.3s;
-    font-size: 25px;
+    transition: .3s;
+    font-size: 26px;
+    white-space: nowrap;
 }
 .primary-btn{background:#2563EB;color:#fff}
 .secondary-btn{background:#2563EB;color:#fff}

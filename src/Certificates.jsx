@@ -124,15 +124,15 @@ const Certificates = () => {
           <button 
             onClick={() => setShowAll(!showAll)}
             style={{
-              padding: '10px 18px',
+              padding: '14px 28px',
               border: 'none',
-              borderRadius: '25px',
+              borderRadius: '12px',
               fontWeight: '700',
               cursor: 'pointer',
               background: '#2563EB',
               color: '#fff',
               transition: '.3s',
-              fontSize: '14px'
+              fontSize: '16px'
             }}
             onMouseOver={(e) => e.target.style.transform = 'translateY(-4px)'}
             onMouseOut={(e) => e.target.style.transform = 'translateY(0)'}
