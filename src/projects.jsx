@@ -38,7 +38,7 @@ const projects = [
     description:
       "A water intake and medication reminder application designed to help users maintain healthy daily habits with authentication and analytics.",
     tech: "React • NestJS • PostgreSQL • Supabase",
-    github: "https://github.com/yourusername/hydrocare",
+    github: "https://github.com/tawananyashachipata-lab/hydro-quest-log.git",
     // Comingsoon: "https://hydrocare.vercel.app",
   },
   
