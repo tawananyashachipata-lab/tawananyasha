@@ -42,14 +42,14 @@ const projects = [
     // Comingsoon: "https://hydrocare.vercel.app",
   },
   
-  {
-    title: "TrainEase by Staycey",
-    description:
-      "A fitness and wellness platform helping users manage workouts, progress tracking, and healthy living.",
-    tech: "React • NestJS • PostgreSQL",
-    github: "https://github.com/yourusername/trainease",
-    // Comingsoon: "https://trainease.vercel.app",
-  },
+  // {
+  //   title: "TrainEase by Staycey",
+  //   description:
+  //     "A fitness and wellness platform helping users manage workouts, progress tracking, and healthy living.",
+  //   tech: "React • NestJS • PostgreSQL",
+  //   github: "https://github.com/yourusername/trainease",
+  //   // Comingsoon: "https://trainease.vercel.app",
+  // },
 ];
 
 export default function Projects() {
