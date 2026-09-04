@@ -1,6 +1,6 @@
 import "./App.css";
 import profile from "./assets/me.jpeg";
-import cv from "./assets/Tawananyasha_chipata_CV_pdf.pdf";
+import cv from "./assets/Tawananyasha Chipata_Software_Developer_CV.pdf";
 
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
@@ -23,13 +23,13 @@ import {
 const Hero = () => {
   return (
     <section className="hero" id="home">
-      {/* Background Blur */}
+      
       <div className="blur blur1"></div>
       <div className="blur blur2"></div>
 
       <div className="hero-container">
 
-        {/* LEFT SIDE */}
+        
         <motion.div
           className="hero-content"
           initial={{ opacity: 0, x: -80 }}
@@ -67,7 +67,7 @@ const Hero = () => {
             Software Developer dedicated about building accessible, performant web applications. I specialize in React, Node.js, and modern full-stack development. I enjoy turning complex problems into simple, beautiful solutions and I’m always learning the next best tool.
           </p>
 
-          {/* Buttons */}
+          
 
         <div className="hero-buttons">
         <a href="#projects">
@@ -75,21 +75,17 @@ const Hero = () => {
           View Projects
          </button>
          </a>
-            <a href={cv} download="Tawananyasha_chipata_CV_pdf.pdf">
+            <a href={cv} download="Tawananyasha Chipata_Software_Developer_CV.pdf">
               <button className="secondary-btn">
                 Download CV
               </button>
             </a>
 
-            {/* <a href="#contact">
-              <button className="outline-btn">
-                Contact Me
-              </button>
-            </a> */}
+            
 
           </div>
 
-          {/* Social Icons */}
+          
 
           <div className="social-icons">
 
@@ -107,35 +103,10 @@ const Hero = () => {
 
           </div>
 
-          {/* Stats */}
-
-          {/* <div className="stats">
-
-            <div className="card">
-              <h2>10+</h2>
-              <p>Projects</p>
-            </div>
-
-            <div className="card">
-              <h2>1+</h2>
-              <p>Years Learning</p>
-            </div>
-
-            <div className="card">
-              <h2>100%</h2>
-              <p>Passion</p>
-            </div>
-
-            <div className="card">
-              <h2>∞</h2>
-              <p>Curiosity</p>
-            </div>
-
-          </div> */}
 
         </motion.div>
 
-        {/* RIGHT SIDE */}
+      
 
         <motion.div
           className="hero-image"
@@ -148,7 +119,7 @@ const Hero = () => {
 
             <img src={profile} alt="Tawananyasha Chipata" />
 
-            {/* Floating Tech Icons */}
+            
 
             <span className="icon react">
               <FaReact />

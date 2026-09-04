@@ -70,7 +70,7 @@ scroll-behavior:smooth;
     font-weight: 700;
     cursor: pointer;
     transition: .3s;
-    font-size: 26px;
+    font-size: 14px;
     white-space: nowrap;
 }
 .primary-btn{background:#2563EB;color:#fff}
@@ -227,7 +227,7 @@ background:#2563EB;
 border:none;
 border-radius:15px;
 cursor:pointer;
-font-size:8px;
+font-size:14px;
 }
 
 
@@ -784,7 +784,7 @@ margin-top:40px;
 
 .hero h1{font-size:2.5rem}
 .hero-buttons button{
-    padding:12px 22px;font-size:15px;
+    padding:12px 22px;font-size:14px;
 }
 
 }
@@ -964,7 +964,7 @@ margin-top:40px;
   text-decoration: none;
 }
 
-/* PHONE FOOTER */
+
 @media (max-width: 768px) {
   .footer {
     padding: 40px 20px;
@@ -985,7 +985,7 @@ margin-top:40px;
   }
 }
 
-/* SMALL PHONES */
+
 @media (max-width: 480px) {
   .footer {
     padding: 35px 15px;
@@ -1042,7 +1042,7 @@ img {
   height: auto;
 }
 
-/* Mobile phones */
+
 @media (max-width: 768px) {
 
   .navbar {
@@ -1087,7 +1087,7 @@ img {
   }
 }
 
-/* Small phones */
+
 @media (max-width: 480px) {
 
   .hero {
@@ -1150,7 +1150,7 @@ img {
   white-space: nowrap;
 }
 
-/* PHONE NAVBAR */
+
 @media (max-width: 768px) {
   .navbar {
     padding: 15px 20px;
@@ -1174,7 +1174,7 @@ img {
   }
 }
 
-/* SMALL PHONES */
+
 @media (max-width: 480px) {
   .navbar {
     padding: 12px 15px;
