@@ -40,7 +40,7 @@ const About = () => {
           </h2>
 
           <p>
-            Hello! I'm <strong>Tawananyasha Chipata</strong>, a junior software developer focused on building clean, responsive, and user-friendly digital experiences. I work with technologies like React, JavaScript, Python, and NestJS, turning ideas into functional web applications. I enjoy learning new technologies and solving problems through code.
+            Hello! I am <strong>Tawananyasha Chipata</strong>, a junior software developer focused on building clean, responsive and user-friendly digital experiences. I work with technologies like React, JavaScript, Python and NestJS, turning ideas into functional web applications. I enjoy learning new technologies and solving problems through code.
           </p>
 
           <p>

@@ -64,7 +64,7 @@ const Hero = () => {
           </h2>
 
           <p>
-            Software Developer dedicated about building accessible, performant web applications. I specialize in React, Node.js, and modern full-stack development. I enjoy turning complex problems into simple, beautiful solutions and I’m always learning the next best tool.
+            Software Developer dedicated about building accessible, performant web applications. I specialize in React, Node.js and modern full-stack development. I enjoy turning complex problems into simple, beautiful solutions and I am always learning the next best tool.
           </p>
 
           
