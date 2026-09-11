@@ -75,7 +75,7 @@ export default function Projects() {
             <img
               src={project.thumbnail}
               alt={project.title}
-              className="project-thumbnail"
+              className={`project-thumbnail ${project.title.startsWith("OAK") ? "project-thumbnail-contain" : ""}`}
             />
 
             <h3>{project.title}</h3>

@@ -217,6 +217,11 @@ code {
   display: block;
 }
 
+.project-thumbnail-contain {
+  object-fit: contain;
+  background: #f8fafc;
+}
+
 .project-card h3,
 .project-card p,
 .project-card .tech-stack {
