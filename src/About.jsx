@@ -8,13 +8,7 @@ import {
   FaLaptopCode,
   FaLightbulb,
   FaGraduationCap,
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaGithub,
 } from "react-icons/fa";
-
-import { SiJavascript, SiNextdotjs } from "react-icons/si";
 
 const About = () => {
   return (

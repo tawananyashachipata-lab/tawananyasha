@@ -3,6 +3,7 @@ import "./index.css";
 import tastehubImage from "./assets/Tastehub Restaurant.png";
 import stayceyGlowImage from "./assets/Staycey_glow.png";
 import financeflowImage from "./assets/Financeflow.png";
+import oakImage from "./assets/Oak.png.png";
 
 const projects = [
 
@@ -28,18 +29,19 @@ const projects = [
     thumbnail: financeflowImage,
     title: "Financeflow ",
     description:
-      "A modern personal finance management app that helps users track income, expenses, budgets, and financial activity through a simple and intuitive dashboard.",
+      "A modern event platform built to simplify registration, programme management, and event coordination.",
     tech: "React • TypeScript  • Supabase  • HTML • CSS",
     github: "https://github.com/tawananyashachipata-lab/financeflow-dashboard.git",
     live: "https://financeflow-dashboard-i2al.vercel.app/",
   },
   {
-    title: "HydroCare",
+    thumbnail: oakImage,
+    title: "OAK-Foundation-Event",
     description:
       "A water intake and medication reminder application designed to help users maintain healthy daily habits with authentication and analytics.",
-    tech: "React • NestJS • PostgreSQL • Supabase",
-    github: "https://github.com/tawananyashachipata-lab/hydro-quest-log.git",
-    // Comingsoon: "https://hydrocare.vercel.app",
+    tech: "Typescript • NextJS • PostgreSQL • Supabase",
+    github: "https://github.com/tawananyashachipata-lab/OAK.git",
+    live: "https://oak-foundation-eta.vercel.app/",
   },
   
   // {
