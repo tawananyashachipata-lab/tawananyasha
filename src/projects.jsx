@@ -4,6 +4,7 @@ import tastehubImage from "./assets/Tastehub Restaurant.png";
 import stayceyGlowImage from "./assets/Staycey_glow.png";
 import financeflowImage from "./assets/Financeflow.png";
 import oakImage from "./assets/Oak.png.png";
+import barberImage from "./assets/Barber.png";
 
 const projects = [
 
@@ -38,20 +39,21 @@ const projects = [
     thumbnail: oakImage,
     title: "OAK-Foundation-Event",
     description:
-      "A water intake and medication reminder application designed to help users maintain healthy daily habits with authentication and analytics.",
+      "A digital event management platform for OAK Zimbabwe, streamlining attendee registration, QR check-in, event programmes, and partner management.",
     tech: "Typescript • NextJS • PostgreSQL • Supabase",
     github: "https://github.com/tawananyashachipata-lab/OAK.git",
     live: "https://oak-foundation-eta.vercel.app/",
   },
   
-  // {
-  //   title: "TrainEase by Staycey",
-  //   description:
-  //     "A fitness and wellness platform helping users manage workouts, progress tracking, and healthy living.",
-  //   tech: "React • NestJS • PostgreSQL",
-  //   github: "https://github.com/yourusername/trainease",
-  //   // Comingsoon: "https://trainease.vercel.app",
-  // },
+  {
+    thumbnail: barberImage,
+    title: "Mercer Barber Booking Platform",
+    description:
+    "A modern barber booking platform designed to simplify appointment scheduling and enhance the client experience.",
+    tech: "React • TypeScript • Responsive web design • Git and GitHub • Vite",
+    github: "https://github.com/tawananyashachipata-lab/Barber-fade.git",
+    live: "https://barber-fade.netlify.app/",
+  },
 ];
 
 export default function Projects() {
