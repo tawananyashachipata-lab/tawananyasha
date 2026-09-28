@@ -203,7 +203,7 @@ code {
 
 .project-card {
   width: 100%;
-  min-height: 480px;
+  min-height: 500px;
   padding: 0 0 25px;
   border-radius: 16px;
   overflow: hidden;
@@ -230,7 +230,7 @@ code {
 }
 
 .project-card h3 {
-  margin-top: 22px;
+  margin-top: 22px
 }
 
 .project-buttons {
