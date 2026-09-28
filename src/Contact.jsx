@@ -25,8 +25,8 @@ const Contact = () => {
         <h2>Let's Work Together</h2>
 
         <p>
-          Have a project, internship opportunity or just want to say hello?
-          I'd love to hear from you.
+          Have a project or just want to say hello? I would love to hear from you.
+.
         </p>
       </motion.div>
 
