@@ -5,6 +5,7 @@ import stayceyGlowImage from "./assets/Staycey_glow.png";
 import financeflowImage from "./assets/Financeflow.png";
 import oakImage from "./assets/Oak.png.png";
 import barberImage from "./assets/Barber.png";
+import takeoffImage from "./assets/Screenshots/Takeoff.png";
 
 const projects = [
 
@@ -27,6 +28,15 @@ const projects = [
   live: "https://tastehub-order.vercel.app/",
 },
   {
+    thumbnail: takeoffImage,
+    title: "Takeoff",
+    description:
+    "A driver onboarding platform that simplifies registration",
+    tech: "React • TypeScript • Supabase",
+    github: "https://github.com/tawananyashachipata-lab/drive-earn-app.git",
+    live: "https://your-typescript-journey-x6rv.vercel.app/",
+  },
+  {
     thumbnail: financeflowImage,
     title: "Financeflow ",
     description:
@@ -45,6 +55,7 @@ const projects = [
     live: "https://oak-foundation-eta.vercel.app/",
   },
   
+  
   {
     thumbnail: barberImage,
     title: "Mercer Barber Booking Platform",
@@ -54,6 +65,7 @@ const projects = [
     github: "https://github.com/tawananyashachipata-lab/Barber-fade.git",
     live: "https://barber-fade.netlify.app/",
   },
+
 ];
 
 export default function Projects() {
